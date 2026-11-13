@@ -23,10 +23,10 @@
 
 Turn your favorite coding assistant into an expert at building and deploying agents on Google Cloud.
 
-**Agents CLI in Agent Platform** (`agents-cli`) gives your coding agent the skills and commands to build, scale, govern, and optimize enterprise-grade agents Ã¢â‚¬â€ so you don't have to learn every CLI and service yourself.
+**Agents CLI in Agent Platform** (`agents-cli`) gives your coding agent the skills and commands to build, scale, govern, and optimize enterprise-grade agents — so you don't have to learn every CLI and service yourself.
 
 **Works seamlessly with:**
-[Gemini CLI](https://github.com/google-gemini/gemini-cli) &nbsp;Ã¢â‚¬Â¢&nbsp; [Claude Code](https://docs.anthropic.com/en/docs/claude-code) &nbsp;Ã¢â‚¬Â¢&nbsp; [Codex](https://github.com/openai/codex) &nbsp;Ã¢â‚¬Â¢&nbsp; [Antigravity](https://antigravity.google/) &nbsp;Ã¢â‚¬Â¢&nbsp; *and any other coding agent.*
+[Gemini CLI](https://github.com/google-gemini/gemini-cli) &nbsp;•&nbsp; [Claude Code](https://docs.anthropic.com/en/docs/claude-code) &nbsp;•&nbsp; [Codex](https://github.com/openai/codex) &nbsp;•&nbsp; [Antigravity](https://antigravity.google/) &nbsp;•&nbsp; *and any other coding agent.*
 
 ## Get Started
 
@@ -39,7 +39,7 @@ uvx google-agents-cli setup
 ```
 
 <details>
-<summary>Or just the skills Ã¢â‚¬â€ your coding agent will handle the rest</summary>
+<summary>Or just the skills — your coding agent will handle the rest</summary>
 
 ```bash
 npx skills add google/agents-cli
@@ -53,11 +53,11 @@ Launch [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Claude Code](
 
 ### 3. Build your first agent
 
-Ask your coding agent to build something Ã¢â‚¬â€ e.g. *"Use agents-cli to build a caveman-style agent that compresses verbose text into terse, technical grunts"*
+Ask your coding agent to build something — e.g. *"Use agents-cli to build a caveman-style agent that compresses verbose text into terse, technical grunts"*
 
 See the [full tutorial](https://google.github.io/agents-cli/guide/quickstart-tutorial/) for a step-by-step walkthrough.
 
-**[Browse the full documentation Ã¢â€ â€™](https://google.github.io/agents-cli/)**
+**[Browse the full documentation →](https://google.github.io/agents-cli/)**
 
 ---
 
@@ -66,12 +66,12 @@ See the [full tutorial](https://google.github.io/agents-cli/guide/quickstart-tut
 | Skill | What your coding agent learns |
 |-------|-------------------------------|
 | `google-agents-cli-workflow` | Development lifecycle, code preservation rules, model selection |
-| `google-agents-cli-adk-code` | ADK Python API Ã¢â‚¬â€ agents, tools, orchestration, callbacks, state |
-| `google-agents-cli-scaffold` | Project scaffolding Ã¢â‚¬â€ `create`, `enhance`, `upgrade` |
-| `google-agents-cli-eval` | Evaluation methodology Ã¢â‚¬â€ metrics, evalsets, LLM-as-judge, trajectory scoring |
-| `google-agents-cli-deploy` | Deployment Ã¢â‚¬â€ [Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale), [Cloud Run](https://cloud.google.com/run), [GKE](https://cloud.google.com/kubernetes-engine), CI/CD, secrets |
+| `google-agents-cli-adk-code` | ADK Python API — agents, tools, orchestration, callbacks, state |
+| `google-agents-cli-scaffold` | Project scaffolding — `create`, `enhance`, `upgrade` |
+| `google-agents-cli-eval` | Evaluation methodology — metrics, evalsets, LLM-as-judge, trajectory scoring |
+| `google-agents-cli-deploy` | Deployment — [Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale), [Cloud Run](https://cloud.google.com/run), [GKE](https://cloud.google.com/kubernetes-engine), CI/CD, secrets |
 | `google-agents-cli-publish` | Gemini Enterprise registration |
-| `google-agents-cli-observability` | Observability Ã¢â‚¬â€ Cloud Trace, logging, third-party integrations |
+| `google-agents-cli-observability` | Observability — Cloud Trace, logging, third-party integrations |
 
 ---
 
@@ -142,24 +142,24 @@ No. **`agents-cli` is a tool *for* coding agents, not a coding agent itself.** I
 [ADK](https://adk.dev) is an agent framework. `agents-cli` gives your coding agent the skills and tools to build, evaluate, and deploy ADK agents end-to-end.
 
 **Do I need Google Cloud?**<br>
-For local development (`create`, `run`, `eval`), no Ã¢â‚¬â€ you can use an [AI Studio API key](https://aistudio.google.com/apikey) to run Gemini with [ADK](https://adk.dev) locally. For deployment and cloud features, yes.
+For local development (`create`, `run`, `eval`), no — you can use an [AI Studio API key](https://aistudio.google.com/apikey) to run Gemini with [ADK](https://adk.dev) locally. For deployment and cloud features, yes.
 
 **Can I use this with an existing agent project?**<br>
 Yes. `agents-cli scaffold enhance` adds deployment and CI/CD to existing projects.
 
 **Can I use `agents-cli` without a coding agent?**<br>
-Yes. The CLI works standalone Ã¢â‚¬â€ you can run `agents-cli scaffold`, `eval`, `deploy`, and every other command directly from your terminal. The skills just make it easier for coding agents to do it for you.
+Yes. The CLI works standalone — you can run `agents-cli scaffold`, `eval`, `deploy`, and every other command directly from your terminal. The skills just make it easier for coding agents to do it for you.
 
 ## Feedback
 
-We value your input Ã¢â‚¬â€ it helps us improve `agents-cli` for the community.
+We value your input — it helps us improve `agents-cli` for the community.
 
-- **Bugs & feature requests:** [open an issue](https://github.com/google/agents-cli/issues/new) Ã¢â‚¬â€ Ã°Å¸â€˜Â the ones you want prioritized
+- **Bugs & feature requests:** [open an issue](https://github.com/google/agents-cli/issues/new) — 👍 the ones you want prioritized
 - **Share what you built:** we'd love to hear about your projects! Reach out at <a href="mailto:agents-cli@google.com">agents-cli@google.com</a> to share your agent or provide feedback
 
 ## Contributing
 
-The best way to contribute is through feedback: bug reports, feature requests, and ideas shared via [issues](https://github.com/google/agents-cli/issues) to directly shape our roadmap. The CLI is distributed as a pre-built wheel rather than as source in the repository, which lets us iterate quickly while keeping the public interface stable. The code is not obfuscated Ã¢â‚¬â€ you can inspect any release by extracting the `.whl` file (a standard zip archive).
+The best way to contribute is through feedback: bug reports, feature requests, and ideas shared via [issues](https://github.com/google/agents-cli/issues) to directly shape our roadmap. The CLI is distributed as a pre-built wheel rather than as source in the repository, which lets us iterate quickly while keeping the public interface stable. The code is not obfuscated — you can inspect any release by extracting the `.whl` file (a standard zip archive).
 
 See the [contributing guide](CONTRIBUTING.md) for details.
 
